@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>My portal</title>
+<title>Insert title here</title>
 <link rel="stylesheet" href="<c:url value="/assets/css/home.css" />" />
 </head>
 <body>
@@ -15,10 +15,15 @@
 		<div id="wrapper">
 			<div id="content">
 				<div id="site-introduction">
-					<p>Spring으로 만든 페이지입니다</p>
+					<h1>OOPS!</h1>
+					
+					<h2>Error 발생!</h2>
+					<h3>${ name }</h3>
+					<p>${ message }</p>
 				</div>
 			</div>
 		</div>		
 	</div>
+	<jsp:include page="/WEB-INF/views/includes/footer.jsp" />
 </body>
 </html>
